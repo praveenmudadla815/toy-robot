@@ -1,0 +1,14 @@
+.table-row {
+  display: flex;
+}
+
+.table-cell {
+  border: 1px solid #ccc;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.occupied {
+  background-color: #7f8c8d;
+}

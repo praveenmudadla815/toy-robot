@@ -1,0 +1,42 @@
+.robot-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.robot {
+  background-color: #3498db;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  position: absolute;
+}
+
+.robot.north {
+  transform: rotate(0deg);
+}
+
+.robot.south {
+  transform: rotate(180deg);
+}
+
+.robot.east {
+  transform: rotate(90deg);
+}
+
+.robot.west {
+  transform: rotate(-90deg);
+}
+
+.position-text {
+  color: #2c3e50;
+  margin: 0;
+  font-size: 16px;
+}
+
+.position {
+  font-weight: bold;
+}
+
+.direction {
+  font-style: italic;
+}
